@@ -3,7 +3,7 @@ This library and source code are released under the GNU General Public
 License v3. 
 
 A copy of the license can be found in the my GitHub repository here
-https://github.com/ninety47/mt4_indies/blob/master/license.txt
+https://github.com/ninety47/mt4-libs/blob/master/gpl.txt
 
 Trading is a risky business and in using this code you accept ALL 
 responsibility for ensure it works as intended. Simply put I provide 
@@ -33,7 +33,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program.  If not, see http://www.gnu.org/licenses/gpl.txt.
 
 */
 
