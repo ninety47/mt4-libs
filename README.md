@@ -3,6 +3,17 @@ This is my set of open source MetaTrader 4 libraries (almost all) released under
 appropriately referenced libraries compiled other open source code found in forums and other websites. A copy of the is available in the [root](https://github.com/ninety47/mt4-libs/blob/master/gpl.txt) of the repository or from 
 [GNU website](http://www.gnu.org/licenses/gpl.txt).
 
+#Disclaimer
+Trading is inherently risky. If you use these libraries or any of the source code or indicators in this repository 
+you do so acknowledging they are provided **AS-IS** and **WITH NO WARRANTY** of any kind. If you chose to use the
+results of these indicators or supporting libraries in your trading or any other decision making processes you do so 
+at **your own risk**. In downloading, cloning, or generally obtaining a copy of anything from within this repository 
+you acknowledge the author, Michael O'Keeffe, is **NOT responsilble** for any type of losses you incur as a result of 
+using the:
+* source code, 
+* compiled or other binary products, or 
+* any works derived from this source or binary code held in this repository.
+
 #What is MetaTrader 4 (MT4)
 MetaTrader 4 is a retail trading platform commonly used by retail traders to trade Foreign Exchange (FX) and Contracts
 For Difference (CFDs). You can learn more about MetaTrader from the the MetaQuotes 
