@@ -20,7 +20,7 @@ For Difference (CFDs). You can learn more about MetaTrader from the the MetaQuot
 [website](http://www.metaquotes.net/).
 
 #Why build libraries?
-The MetaQuoates Language 4 (MQL4) language for MetaTrader 4 (MT4) is limited in many ways. When compared to modern
+The MetaQuoates Language 4 (MQL4) for MetaTrader 4 (MT4) is limited in many ways. When compared to modern
 programming languages MQL4 lacks basic language features that many you may take for granted e.g. C/C++ structs. It also
 suffers poor performance when asked to perform computationally intensive tasks such as statistical calculations. The
 libraries available here help address some of the short comings of the core library and are aiming to provide a work
