@@ -3,38 +3,43 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <title>Mt4-libs by ninety47</title>
+    <title>MT4 Libraries by ninety47</title>
   </head>
 
   <body>
-    <header>
+    <div id="container">
       <div class="inner">
-        <h1>Mt4-libs</h1>
-        <h2>A set of open source libraries for Metatrader 4 scripting, indicator and expert advisor development.</h2>
-        <a href="https://github.com/ninety47/mt4-libs" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>Welcome</h1>
+        <header>
+          <h1>MT4 Libraries</h1>
+          <h2>A set of open source libraries for Metatrader 4 scripting, indicator and expert advisor development.</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/ninety47/mt4-libs/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/ninety47/mt4-libs/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/ninety47/mt4-libs" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome</h1>
 
 <p>This is my set of open source MetaTrader 4 libraries (almost all) released under the GNU GPL v3 license and 
 appropriately referenced libraries compiled other open source code found in forums and other websites. A copy of the is available in the <a href="https://github.com/ninety47/mt4-libs/blob/master/gpl.txt">root</a> of the repository or from 
 <a href="http://www.gnu.org/licenses/gpl.txt">GNU website</a>.</p>
 
-<h1>Disclaimer</h1>
+<h1>
+<a name="disclaimer" class="anchor" href="#disclaimer"><span class="octicon octicon-link"></span></a>Disclaimer</h1>
 
 <p>Trading is inherently risky. If you use these libraries or any of the source code or indicators in this repository 
 you do so acknowledging they are provided <strong>AS-IS</strong> and <strong>WITH NO WARRANTY</strong> of any kind. If you chose to use the
@@ -47,13 +52,15 @@ using the:</p>
 <li>source code, </li>
 <li>compiled or other binary products, or </li>
 <li>any works derived from this source or binary code held in this repository.</li>
-</ul><h1>What is MetaTrader 4 (MT4)</h1>
+</ul><h1>
+<a name="what-is-metatrader-4-mt4" class="anchor" href="#what-is-metatrader-4-mt4"><span class="octicon octicon-link"></span></a>What is MetaTrader 4 (MT4)</h1>
 
 <p>MetaTrader 4 is a retail trading platform commonly used by retail traders to trade Foreign Exchange (FX) and Contracts
 For Difference (CFDs). You can learn more about MetaTrader from the the MetaQuotes 
 <a href="http://www.metaquotes.net/">website</a>.</p>
 
-<h1>Why build libraries?</h1>
+<h1>
+<a name="why-build-libraries" class="anchor" href="#why-build-libraries"><span class="octicon octicon-link"></span></a>Why build libraries?</h1>
 
 <p>The MetaQuoates Language 4 (MQL4) for MetaTrader 4 (MT4) is limited in many ways. When compared to modern
 programming languages MQL4 lacks basic language features that many you may take for granted e.g. C/C++ structs. It also
@@ -61,12 +68,14 @@ suffers poor performance when asked to perform computationally intensive tasks s
 libraries available here help address some of the short comings of the core library and are aiming to provide a work
 around for some of the language limitations.</p>
 
-<h1>Who should use these libraries?</h1>
+<h1>
+<a name="who-should-use-these-libraries" class="anchor" href="#who-should-use-these-libraries"><span class="octicon octicon-link"></span></a>Who should use these libraries?</h1>
 
 <p>Anyone who wants to write a script, indicator, or expert advisor for MetaTrader 4. Naturally you will at least need to
 know MQL4, how to install the libraries and indicators into your MT4 platform. I will be add the C++ code for some of the available functions but will make sure a DLL is available for download if you don't know C++ or how to build the DLL files.</p>
 
-<h1>The libraries</h1>
+<h1>
+<a name="the-libraries" class="anchor" href="#the-libraries"><span class="octicon octicon-link"></span></a>The libraries</h1>
 
 <p>As of 15/10/2012 there are four libraries here:</p>
 
@@ -81,7 +90,8 @@ know MQL4, how to install the libraries and indicators into your MT4 platform. I
 <strong>ninety47_test</strong>: a set of functions to help write scripts for testing (almost unit tests).</li>
 </ul><p>In the future I will be adding a library of trade functions.</p>
 
-<h1>References</h1>
+<h1>
+<a name="references" class="anchor" href="#references"><span class="octicon octicon-link"></span></a>References</h1>
 
 <p>Here are some useful links:</p>
 
@@ -93,29 +103,18 @@ know MQL4, how to install the libraries and indicators into your MT4 platform. I
 <li>
 <a href="http://www.microsoft.com/visualstudio/eng/products/visual-studio-express-products">Visual Studio Express Edition</a>: Visual Studio (even though its Microsoft product) is a great IDE and hey its the easiest way to build DLLs.</li>
 <li>I'd put <a href="http://www.ninety47.com">www.ninety47.com</a> here buts its not even under construction yet :)</li>
-</ul><h1>Feedback</h1>
+</ul><h1>
+<a name="feedback" class="anchor" href="#feedback"><span class="octicon octicon-link"></span></a>Feedback</h1>
 
 <p>If you like this code let me know by following me here and on twitter <a href="https://twitter.com/ninety47">@ninety47</a>.</p>
         </section>
 
-        <aside id="sidebar">
-          <a href="https://github.com/ninety47/mt4-libs/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/ninety47/mt4-libs/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+        <footer>
+          MT4 Libraries is maintained by <a href="https://github.com/ninety47">ninety47</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
 
-          <p class="repo-owner"><a href="https://github.com/ninety47/mt4-libs"></a> is maintained by <a href="https://github.com/ninety47">ninety47</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
-
-            <script type="text/javascript">
+                  <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -126,5 +125,7 @@ know MQL4, how to install the libraries and indicators into your MT4 platform. I
             } catch(err) {}
           </script>
 
+      </div>
+    </div>
   </body>
 </html>
