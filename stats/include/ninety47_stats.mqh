@@ -49,9 +49,8 @@ along with this program.  If not, see http://www.gnu.org/licenses/gpl.txt.
 
 #property copyright "Michael O\'Keeffe"
 #property link      "http://www.ninety47.com"
-
-
-#import "libninety47stats-0.1.dll"
+         
+#import "libninety47-stats-0.1.1.dll" 
    double pearsons(int n, double x[], double y[]);
    // Description:
    //    Calculates the correlation coefficient (Pearson's product-moment)
