@@ -16,7 +16,7 @@ using the:
 
 #What is MetaTrader 4 (MT4)
 MetaTrader 4 is a retail trading platform commonly used by retail traders to trade Foreign Exchange (FX) and Contracts
-For Difference (CFDs). You can learn more about MetaTrader from the the MetaQuotes 
+For Difference (CFDs). You can learn more about MetaTrader from the MetaQuotes 
 [website](http://www.metaquotes.net/).
 
 #Why build libraries?
